@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   /* display: flex;
+   flex-direction: column; */
+  background-image: url(../pics/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* align-items: center;
+    justify-content: center; */
+   /* justify-content: center;
+   align-items: center; */
+    line-height: 70px;
+}
+.hero-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 9000px;
+}
+.hero-txt h1{
+    font-size: 80px;
+    font-family: poppins ;
+}
+.hero-txt p{
+    font-size: 27px;
+    font-family: poppins ;
+    font-style: italic;
+    font-weight: 300;
+}
+.hero-txt button{
+    background-color: #0080a3;
+    border: 1px solid #0080a3;
+    width: 140px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+  justify-content: flex-end;
+   
+    width: 100%;
+   /*  height: 50vh; */
+   
+    
+}
+.nav img{
+    width: 40%;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    line-height: 40px;
+    
+}
+.offer h3{
+    font-size: 30px;
+    font-family: poppins ;
+    font-weight: 500;
+}
+.offer p{
+    font-size: 15px;
+    font-family: poppins ;
+     
+    color: rgb(182, 182, 182);
+}
+.offer button{
+    background-color:black;
+    border: none;
+    width: 140px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.offer span{
+    color: #0080a3;
+    text-decoration: underline;
+}
+.services{
+    background-color: #0080a3; 
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.-icon-txt{
+
+gap: 90px;
+ display: flex;
+ 
+    
+}
+.services h5{
+    color: rgb(230, 172 , 0);
+    font-family: poppins;
+}
+.services h2{
+    color: white;
+    font-family: poppins;
+    font-size: 50px;
+}
+.-icon-txt p{
+    color: white;
+    font-size: 15px;
+    opacity: 50%;
+}
+.-icon-txt h3{
+    color: white;
+    font-size: 25px;
+    font-family: poppins;
+}
+.download{
+    background-image: url(../pics/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.download span{
+    font-style: italic;
+}
+.download button{
+    background-color: #0080a3;
+    border: 1px solid #0080a3;
+    width: 140px;
+    height: 50px;
+    color: white;
+    border-radius: 5px; 
+    transition: 0.4s;
+    
+}
+.download button:hover{
+    transform: scale(0.5);
+}
+.download h3{
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+
+.portifolio h2{
+   font-size: 12px;
+   padding: 10px 40px 30px 40px;
+   font-weight: 400;
+   font-style: italic;
+   opacity: 80%;
+}
+.portifolio h5{
+    font-size: 10px;
+    padding: 0px 40px;
+ }
+
+.portifolio{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.container1 img{
+    width: 50%;
+    height: 50vh;
+}
+
+.container1 .pic1{
+
+   
+      display: flex;
+     
+         flex-direction:column;
+         justify-content: center;
+      width: 400px;
+      height: 300px;
+        background-image: url(../pics/portfolio-1.jpg);
+        background-position: center;
+        background-size: cover;
+        line-height: 20px;
+        color: white;
+        transition: 0.4s;
+    }
+    .container1 .pic1:hover{
+        transform: scale(0.9);
+       
+    } 
+    
+      
+  
+
+  .container1 .pic2{
+    
+    display: flex;
+    
+   
+       flex-direction:column;
+         justify-content: center; 
+    width: 400px;
+      height: 300px;
+      background-image: url(../pics/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+      background-position: center;
+      background-size: cover;
+      color: white;
+      transition: 0.4s;
+    }  
+    .container1 .pic2:hover{
+        transform: scale(0.9);
+    }   
+     
+    .container1 .pic3{
+    
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+     width: 400px;
+     height: 300px;
+       background-image:url(../pics/joanna-kosinska-BteMcldTQVo-unsplash.jpg);
+       background-position: center;
+       background-size: cover;
+       color: white;  
+       transition: 0.4s; 
+    }  
+    .container1 .pic3:hover{
+        transform: scale(0.9);
+    }  
+       
+    .container1 .pic4{
+       
+        display: flex;
+        flex-direction:column;
+       
+     justify-content: center;
+       width: 400px;
+       height: 300px;
+       background-image:url(../pics/joanna-kosinska-szFUQoyvrxM-unsplash.jpg);
+       background-position: center;
+       background-size: cover;
+       color: white;
+       transition: 0.4s;
+       
+     }  
+     .container1 .pic4:hover{
+        transform: scale(0.9);
+     }    
+     .container1{
+        columns: 2;
+        gap: 0px;
+     }    
+         
+     
+     
+    .btns{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0,128, 163);
+    
+    }
+
+    .btns button{
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 140px;
+        height: 50px;
+        margin: 10px;
+    }  
+       
+  
+    .buttons{
+       
+      
+        display: flex;
+        color: white;
+        font-family: poppins ;
+   }
+    .buttons .buttons1{
+       background-color: white;
+       color: black;
+       
+   }
+   .btns h3{
+       display: flex;
+       
+       color: white;
+       font-size: 35px;
+       font-family: poppins;
+       font-weight: 400;
+       margin: 30px;
+       
+   }
+   .location{
+
+    width: 100%;
+    height: 20vh;
+    
+}
+.location img{
+
+    width: 100%;
+    height: 90vh;
+   
+}
+   
+ .location p{
+  
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: 300;
+    font-family: poppins;
+    color: #777;
+    font-size: 15px;
+  }
+ 
+  .footer img{
+  
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+     
+ }
+ 
+  .footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    }
+   
+      
+        
+       
+    
+    
+  
+    
+  
+         
+        
+    
+   
+       
+     
+       
+      
+    
+ 
+    
+       
+      
+        
+  
+
+  
+   
+
+
+
+
+
+
+
